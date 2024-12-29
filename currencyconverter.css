@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(228, 217, 217);
+}
+.container{
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 60vh;
+    border-radius: 10px;
+    margin-top: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.para{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 3vh;
+    color: rgb(56, 76, 69);
+}
+.box{
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.PARA1{
+    display: block;
+    font-size: 15px;
+    padding: 10px;
+}
+.splcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+select{
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: antiquewhite;
+}
+
+img{
+ width: 30px;
+ height: 30px;
+ top: 10px;
+ position: relative;
+}
+i{
+ width: 30px;
+ height: 30px;
+ margin-top: 30px;
+ position: relative;
+ left: 10px;
+}
+.convert{
+    margin: 30px;
+}
+.msg{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.btn{
+    height: 30px;
+    margin-left: 10vw;
+    margin-top: 5vh;
+    color: black;
+    font-weight: bolder;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    border: none;
+}
